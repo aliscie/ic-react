@@ -116,6 +116,10 @@ dfx canister call opend listItem '(principal "<REPLACE WITH NFT CANISTER ID>", 2
 dfx canister id opend
 ```
 
+```
+dfx canister id nft
+```
+
 4. Transfer NFT to OpenD:
 
 ```
