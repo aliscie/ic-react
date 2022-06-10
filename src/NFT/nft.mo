@@ -5,7 +5,7 @@ actor class NFT (name:Text, onwer: Principal, content:[Nat8]){
     
     let itemName=name;
     let nftOnwer=onwer; //every time we call NFT() we will get new unique Principal
-    let imageByts=content;
+    let imageByts=content; //every time we call NFT() we will get new unique content
 
     public query func getName() : async Text{
         return itemName
