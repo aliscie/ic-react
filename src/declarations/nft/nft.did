@@ -1,0 +1,7 @@
+type NFT = 
+ service {
+   getName: () -> (text) query;
+   getOnwer: () -> (principal) query;
+   getimage: () -> (vec nat8) query;
+ };
+service : (text, principal, vec nat8) -> NFT
